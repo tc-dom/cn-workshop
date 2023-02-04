@@ -2,9 +2,11 @@
   <div>
     <navbar/>
     <slide-cover/>
-    <articles/>
+    <div class="ar_bg">
+      <articles/>
+    </div>
     <media/>
-    <card-kkp/>
+    <card-kkp class="mt-5"/>
     <Footer/>
   </div>
 </template>
@@ -24,6 +26,15 @@ export default {
 </script>
 
 <style>
+.ar_bg{
+   height:1200px;
+   position: relative;
+   top: 0;
+   margin-top: 0px;
+   padding-top: 10px;
+  width:100vw;
+  background:linear-gradient(175deg, #f6f7f9, #f6f7f9 90%, white 10%, white);
+}
 * {
   font-family: "Sarabun", sans-serif;
   font-size: 15px;
