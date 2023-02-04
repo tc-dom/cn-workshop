@@ -79,7 +79,8 @@
 }
 .main-media-zone{
     flex-shrink: 0;
-    width: 780px;
+    max-width: 780px;
+    width: 100%;
     height: 420px;
     background: #000;
     box-shadow: 8px 10px 23px -10px rgba(0,0,0,0.75);
@@ -123,5 +124,14 @@
     height: 3px;
     background: #999;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .media-control{
+    flex-direction: column;
+  }
+
+}
+
 
 </style>

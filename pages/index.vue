@@ -38,13 +38,17 @@ export default {
 * {
   font-family: "Sarabun", sans-serif;
   font-size: 15px;
+
 }
+
 .crack_container {
   max-width: 1240px;
   width: 100%;
   display: block;
   margin: auto;
+  overflow: hidden;
 }
+
 .cn_workshop_nav {
   display: flex;
   flex-direction: row;

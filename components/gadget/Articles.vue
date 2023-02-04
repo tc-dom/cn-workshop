@@ -1,7 +1,7 @@
 <template>
   <div class="crack_container" style="margin-top: 120px">
     <div class="row">
-      <div class="col-8">
+      <div class="col-lg-8 col-md-8 col-sm-12">
         <div class="cn_workshop_nav">
           <a href="#">Articles</a>
 
@@ -22,10 +22,10 @@
             </span>
           </button>
         </div>
-        <div class="mb-3">
+        <div class="col-12 col-md-12 col-sm-12">
          <div class="card-article">
              <div class="row g-0">
-            <div class="col-md-7">
+            <div class="col-7 col-md-8 col-sm-12">
                 <div class="card-article-img">
                      <img
                 src="https://media.kkpfg.com/image/2022/Nov/checklist-for-2nd-hand-real-estate_628x443.jpg"
@@ -35,7 +35,7 @@
                 </div>
              
             </div>
-            <div class="col-md-5">
+            <div class="col-3 col-md-4 col-sm-12">
               <div class="card-article-body">
                 <h5 class="card-article-title">
                   Margin of safety กลยุทธ์การลงทุนอย่างปลอดภัย
@@ -56,7 +56,7 @@
          </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-3 col-md-4 col-sm-12">
         <div class="cn_workshop_nav">
           <a href="#">News</a>
 
@@ -85,7 +85,7 @@
     </div>
 
     <div class="row">
-      <div class="col-4" v-for="i in 2" :key="i">
+      <div class="col-4 col-md-4 col-sm-12" v-for="i in 2" :key="i">
         <div class="card-article">
         <div class="card-article-img">
               <img

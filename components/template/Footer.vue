@@ -5,7 +5,7 @@
          <footer class="footer-container">
      <div class="crack_container">
          <div class="row">
-        <div class="col-4">
+        <div class="col-4 col-lg-4 col-md-6 col-sm-6">
          <b-img class="footer_logo" src="/favicon.png" alt="Responsive image"></b-img>
          <div class="sub_footer_logo">
              <h2>บริษัท ทุนภัทร จำกัด (มหาชน)</h2>
@@ -16,7 +16,7 @@
           </p>
          </div>
         </div>
-       <div class="col-4 mt-4">
+       <div class="col-lg-4 col-md-6 col-sm-6 mt-4">
         <div class="row">
              <div class="col-6">
           <h3>เมนู</h3>
@@ -38,7 +38,7 @@
         </div>
         </div>
        </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="ft_contact mt-4">
                          <h3>ติดต่อเรา</h3>
           <li>
@@ -160,6 +160,8 @@ background: linear-gradient(180deg, rgba(112,110,176,1) 0%, rgba(56,49,106,1) 10
     justify-content: space-between;
     max-width: 1240px;
     margin: auto;
+    width: 100%;
+    overflow: hidden;
     padding: 20px 0px;
 }
 .sub_bank_logo img{
