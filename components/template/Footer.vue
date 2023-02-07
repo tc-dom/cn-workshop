@@ -6,7 +6,7 @@
      <div class="crack_container">
          <div class="row">
         <div class="col-4 col-lg-4 col-md-6 col-sm-6">
-         <b-img class="footer_logo" src="/favicon.png" alt="Responsive image"></b-img>
+         <b-img class="footer_logo" src="/logo.png" alt="Responsive image"></b-img>
          <div class="sub_footer_logo">
              <h2>บริษัท ทุนภัทร จำกัด (มหาชน)</h2>
           <p>
@@ -42,21 +42,21 @@
             <div class="ft_contact mt-4">
                          <h3>ติดต่อเรา</h3>
           <li>
-            <img class="ico_contact" src="/p2.png" alt="" srcset="">
+            <img class="ico_contact" src="/footer_ico/ic-tel.png" alt="" srcset="">
             (66) 2305 9800</li>
           <li>
-             <img class="ico_contact" src="/p.png" alt="" srcset="">
+             <img class="ico_contact" src="/footer_ico/ic-fax.png" alt="" srcset="">
              (66) 2305 9803</li>
           <li>
-             <img class="ico_contact" src="/p3.png" alt="" srcset="">
+             <img class="ico_contact" src="/footer_ico/ic-mail.png" alt="" srcset="">
              customerservice@phatraasset.com</li>
             </div>
 
 
             <div class="ft_socail">
-                 <img class="ico_socail" src="/s1.png" alt="" srcset="">
-                  <img class="ico_socail" src="/s3.png" alt="" srcset="">
-                   <img class="ico_socail" src="/s2.png" alt="" srcset="">
+                 <img class="ico_socail" src="/footer_ico/facebook-logo-button.png" alt="" srcset="">
+                  <img class="ico_socail" src="/footer_ico/twitter.png" alt="" srcset="">
+                   <img class="ico_socail" src="/footer_ico/youtube-logotype-1.png" alt="" srcset="">
 
             </div>
          
@@ -80,10 +80,10 @@
     </footer>
 
     <div class="sub_bank_logo">
-        <img class="sub_bank_logo_big" src="/bank_logo/1.png" alt="" srcset="">
-        <img src="/bank_logo/2.png" alt="" srcset="">
-        <img src="/bank_logo/2.png" alt="" srcset="">
-        <img src="/bank_logo/2.png" alt="" srcset="">
+        <img class="sub_bank_logo_big" src="/footer_ico/logo-footer-1.png" alt="" srcset="">
+        <img src="/footer_ico/logo-footer-2.png" alt="" srcset="">
+        <img src="/footer_ico/logo-footer-3.png" alt="" srcset="">
+        <img src="/footer_ico/logo-footer-2.png" alt="" srcset="">
     </div>
     </div>
 </template>
@@ -103,7 +103,8 @@ background: linear-gradient(180deg, rgba(112,110,176,1) 0%, rgba(56,49,106,1) 10
 }
 
 .footer-container h3{
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 500;
     display: block;
     margin-bottom: 20px;
     font-family: 'kanit',sans-serif;
@@ -123,35 +124,38 @@ background: linear-gradient(180deg, rgba(112,110,176,1) 0%, rgba(56,49,106,1) 10
         display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 13px;
     padding-top: 20px;
+      opacity: 0.5;
+  font-family: 'Tahoma';
+  font-size: 13px;
+
+  color: #cfcbeb;
 }
 .footer-container li{
     list-style-type: none;
-    font-size: 14px;
-}
-.ft_contact li{
-    font-size: 18px !important;
+      font-family: Tahoma;
+  font-size: 16px;
+  line-height: 1.75;
 }
 .ico_contact{
     margin: 10px 10px 10px 0px;
-    width: 28px;
-    height: 28px;
+    width: 23px;
+    height: 18px;
 }
 .ft_socail{
     margin: 20px 0px;
     
 }
 .ico_socail{
-    width: 45px;
-    margin-right:5px ;
-    height: 45px;
+    width: 44px;
+    margin-right:9px ;
+    height: 44px;
     border-radius: 50%;
 }
 .footer_logo{
     position: absolute;
     width: 240px;
-    top: -60px;
+    top: 30px;
 }
 .sub_footer_logo{
     margin-top: 130px;
@@ -166,13 +170,13 @@ background: linear-gradient(180deg, rgba(112,110,176,1) 0%, rgba(56,49,106,1) 10
 }
 .sub_bank_logo img{
   
-            opacity: .3;
+           object-fit: contain;
     max-height: 50px;
     
 }
 .sub_bank_logo_big{
   
-            opacity: .3;
+ 
     max-height: 60px !important;
     
 }

@@ -1,14 +1,19 @@
 <template>
   <b-navbar class="navbar_cn" toggleable type="dark" variant="dark">
-        <b-navbar-brand href="#" >
-        <img class="icon_control_hamburger" src="hamburget.png" alt="" srcset="">
-         <img class="icon_control_main" src="favicon.png" alt="" srcset="">
+      <div class="hamburger-icon">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+        <b-navbar-brand href="#" style="margin-left:41px">
+
+         <img class="icon_control_main" src="logo.png" alt="" srcset="">
     </b-navbar-brand>
 
 <div class="right_control">
 
         <b-nav-item>
-               <img class="icon_control_manify" src="manify.png" alt="" srcset="">
+               <img class="icon_control_manify" src="search-2.png" alt="" srcset="">
         </b-nav-item>
 
     <b-nav-item-dropdown text="TH" right >
@@ -27,8 +32,34 @@
 
 
 <style>
+  .hamburger-icon {
+    width: 44px;
+    height: 31px;
+    display: inline-block;
+    position: absolute;
+    top: 57px;
+    left: 100px;
+  }
+  .hamburger-icon span {
+    content: "";
+    width: 44px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+  }
+  .hamburger-icon span:nth-child(1) {
+    top: 0px;
+  }
+  .hamburger-icon span:nth-child(2) {
+    top: 13px;
+  }
+  .hamburger-icon span:nth-child(3) {
+    top: 26px;
+  }
 .navbar_cn{
     display: flex;
+
     flex-direction: row;
     align-content: center;
     align-items: center;
@@ -38,6 +69,7 @@
 
 
 }
+
 .navbar_cn a{
     color: #fff !important;
 }
@@ -62,7 +94,8 @@
     margin-left: 30px;
 }
 .icon_control_manify{
-    width: 30px;
+    width: 21px;
+    height: 22px;
 }
 </style>
 

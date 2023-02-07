@@ -21,8 +21,7 @@
 
 <style>
 .card-slide-news{
-    margin-top: 20px;
-    height: 330px;
+    height: 298px;
     overflow: hidden;
     position: relative;
     background: #ff0000;

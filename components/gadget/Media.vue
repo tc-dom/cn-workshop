@@ -20,22 +20,15 @@
         <div class="media-control">
          
             <div class="main-media-zone">
-                <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/Vnou1PgG2WY?start=479"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+               <img src="/cover-video.png" alt="" srcset="">
             </div>
          
           <div class="media-card">
             <div class="media-body">
               <h1 class="media-title">KKP Focus</h1>
               <p class="media-text">
-                ฝนนักสู้ พบเรื่องราวจริง เจ็บจริง ประสบความสำเร็จจริง ที่จะเป็นแรงกระตุ้นให้ SME นักสู้รุ่นต่อไปได้ก้าวไปถึงฝัน
+                ฝนนักสู้ พบเรื่องราวจริง เจ็บจริง ประสบความสำเร็จจริง ที่จะเป็นแรงกระตุ้นให้ SME นักสู้รุ่นต่อไป 
+ได้ก้าวไปถึงฝัน
               </p>
               
             </div>
@@ -79,9 +72,9 @@
 }
 .main-media-zone{
     flex-shrink: 0;
-    max-width: 780px;
+    max-width: 720px;
     width: 100%;
-    height: 420px;
+    height: 414px;
     background: #000;
     box-shadow: 8px 10px 23px -10px rgba(0,0,0,0.75);
 -webkit-box-shadow: 8px 10px 23px -10px rgba(0,0,0,0.75);
@@ -96,27 +89,38 @@
 .media_heading h2{
     margin-left: 10px;
     margin-right: 20px;
+  font-size: 42px;
+  font-weight: 500;
+
+  color: #594f74;
 }
 .media-title{
       color: rgba(101, 92, 159, 1);
       font-weight: 600;
       font-family: 'kanit',sans-serif;
     margin-bottom: 20px;
+    
 }
 .media-body{
     display: block;
     padding:70px 0px;
     border-width: 3px;
     border-top: 3px;
+    max-width: 276px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 3px;
   border-style: solid;
-  border-image: linear-gradient(to right, #777, #999,#777) 1;
+  border-image: linear-gradient(to right, #d0cfd8 -3%, #e9eaef 55%, #b9b9c3 111%) 1;
 
 }
 .media-text{
-    font-size: 19px;
+     font-family: 'Kanit',sans-serif;
+  font-size: 20px;
+font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #84848f;
 }
 .datt{
     display: block;

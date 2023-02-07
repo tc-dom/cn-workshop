@@ -21,14 +21,38 @@
             </button>
           </div>
       <div class="row">
-        <div class="col-4" v-for="i in 3" :key="i">
+        <div class="col-4">
           <div class="card_kkp">
             <div class="card_kkp-img">
-                   <img src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5BlqEnofMn1TpIzhDsPW14TLjqowPPuEIMjCjt5jExDCzhcHsgS.jpg"  alt="..." />
+                   <img src="/clip/clip-1.png"  alt="..." />
          
             </div>
             <div class="card_kkp-body">
-              <p class="card_kkp-text">KKP  Focus  ช่วงที่ 2  กูรู...  โต๊ะกลม</p>
+              <p class="card_kkp-text">KKP Focus ช่วงที่ 2 กูรู... โต๊ะกลม</p>
+           
+            </div>
+          </div>
+        </div>
+
+         <div class="col-4">
+          <div class="card_kkp">
+            <div class="card_kkp-img">
+        <img src="/clip/clip-2.png"  alt="..." />
+            </div>
+            <div class="card_kkp-body">
+              <p class="card_kkp-text">KKP Focus ช่วงที่ 1 ย่อประเด็นโลก โยกประเด็นร้อน</p>
+           
+            </div>
+          </div>
+        </div>
+
+         <div class="col-4">
+          <div class="card_kkp">
+            <div class="card_kkp-img">
+                <img src="/clip/clip-3.png"  alt="..." />
+            </div>
+            <div class="card_kkp-body">
+              <p class="card_kkp-text">KKP Focus ช่วงที่ 2 กูรู... โต๊ะกลม</p>
            
             </div>
           </div>

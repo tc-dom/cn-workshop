@@ -27,17 +27,19 @@ export default {
 
 <style>
 .ar_bg{
-   height:1200px;
+   height:1222px;
    position: relative;
    top: 0;
    margin-top: 0px;
    padding-top: 10px;
   width:100vw;
-  background:linear-gradient(175deg, #f6f7f9, #f6f7f9 90%, white 10%, white);
+  background-image: url('/bg@2x.png');
+  background-size:cover ;
 }
 * {
-  font-family: "Sarabun", sans-serif;
-  font-size: 15px;
+  font-family: "Tahoma", sans-serif;
+  font-size: 16px;
+  line-height: 1 .56;
 
 }
 
